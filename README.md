@@ -8,5 +8,5 @@ Ziyu Yao<sup>1,2</sup>, Jialin Li<sup>2</sup>, Yifeng Zhou<sup>2</sup>, Yong Liu
 <sup>4</sup> University of Washington
 
 <div align="center">
-<img src="./docs/teaser.png">
+<img src="./docs/teaser.png" width="80%">
 </div>
