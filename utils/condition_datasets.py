@@ -242,11 +242,6 @@ class ConditionDatasetFolder(VisionDataset):
             condition_sample = F.crop(condition_sample, i, j, h, w)
             control_images = get_control_for_each_scale(condition_sample, self.pn)
 
-        pp = '/data/yzy/projects/conVAR_residual/c_d'
-        sample.save(os.path.join(pp, 'sample_{}.png'.format(self.train)))
-        for idx, ci in enumerate(control_images):
-            ci.save(os.path.join(pp, 'image_{}_{}.png'.format(self.train, idx)))
-
         if self.target_transform is not None:
             target = self.target_transform(target)
 
