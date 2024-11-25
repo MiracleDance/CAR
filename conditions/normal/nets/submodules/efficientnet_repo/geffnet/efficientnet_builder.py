@@ -3,7 +3,7 @@
 Copyright 2020 Ross Wightman
 """
 import re
-from copy_path import deepcopy
+from copy import deepcopy
 
 from .conv2d_layers import *
 from geffnet.activations import *
