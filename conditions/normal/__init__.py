@@ -10,8 +10,8 @@ from einops import rearrange
 from huggingface_hub import hf_hub_download
 from PIL import Image
 
-from conditions.util import HWC3, resize_image
-from conditions.normal.nets.NNET import NNET
+from ..util import HWC3, resize_image
+from ..normal.nets.NNET import NNET
 
 
 # load model
