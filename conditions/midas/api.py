@@ -10,7 +10,7 @@ from .midas.dpt_depth import DPTDepthModel
 from .midas.midas_net import MidasNet
 from .midas.midas_net_custom import MidasNet_small
 from .midas.transforms import Resize, NormalizeImage, PrepareForNet
-from util import ckpt_path
+from ..util import ckpt_path
 
 
 ISL_PATHS = {
