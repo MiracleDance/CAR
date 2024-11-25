@@ -2,8 +2,8 @@ import os
 import torch
 import numpy as np
 from einops import rearrange
-from pidinet.model import pidinet
-from util import load_state_dict
+from ..pidinet.model import pidinet
+from ..util import load_state_dict
 
 netNetwork = None
 
