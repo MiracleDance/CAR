@@ -23,13 +23,13 @@ We have currently released the CAR-d16 weights for demo purposes, and larger mod
 
 The CAR models are available on <a href='https://huggingface.co/MiracleDance/CAR'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-MiracleDance/CAR-yellow'></a> and can also be downloaded from the following links:
 
-|   Model    | reso. |  Condition  | HF weights🤗                                                                                |
-|:----------:|:-----:|:-----------:|:--------------------------------------------------------------------------------------------|
-|  CAR-d16   |  256  |  Canny Edge | [car_canny_d16.pth](https://huggingface.co/MiracleDance/CAR/resolve/main/car_canny_d16.pth) |
-|  CAR-d16   |  256  |  HED Map    | [car_hed_d16.pth](https://huggingface.co/MiracleDance/CAR/resolve/main/car_hed_d16.pth)     |
-|  CAR-d16   |  256  |  Depth Map  | Soon |
-|  CAR-d16   |  256  |  Normal Map | Soon |
-|  CAR-d16   |  256  |   Sketch    | Soon |
+|   Model    | reso. |  Condition  | HF weights🤗                                                                                   |
+|:----------:|:-----:|:-----------:|:-----------------------------------------------------------------------------------------------|
+|  CAR-d16   |  256  |  Canny Edge | [car_canny_d16.pth](https://huggingface.co/MiracleDance/CAR/resolve/main/car_canny_d16.pth)    |
+|  CAR-d16   |  256  |  HED Map    | [car_hed_d16.pth](https://huggingface.co/MiracleDance/CAR/resolve/main/car_hed_d16.pth)        |
+|  CAR-d16   |  256  |  Depth Map  | [car_depth_d16.pth](https://huggingface.co/MiracleDance/CAR/resolve/main/car_depth_d16.pth)    |
+|  CAR-d16   |  256  |  Normal Map | [car_normal_d16.pth](https://huggingface.co/MiracleDance/CAR/resolve/main/car_normal_d16.pth)  |
+|  CAR-d16   |  256  |   Sketch    | [car_sketch_d16.pth](https://huggingface.co/MiracleDance/CAR/resolve/main/car_sketch_d16.pth)  |
 
 As CAR is based on the pre-trained [VAR](https://github.com/FoundationVision/VAR) model, the following pre-trained weights also need to be downloaded: [vae_ch160v4096z32.pth](https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.pth), [var_d16.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth).
 
