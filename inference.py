@@ -109,7 +109,6 @@ if __name__ == "__main__":
     parser.add_argument('--img_path', type=str, help='path to an original image from which the condition is extracted')
     parser.add_argument('--save_path', type=str, help='path to the generated image')
     parser.add_argument('--cls', type=int, help='an index ranging from 0 to 999 in the ImageNet label set')
-    # parser.add_argument('--type', type=str, help='indicating which condition is extracted from the original image')
+    parser.add_argument('--type', type=str, help='indicating which condition is extracted from the original image')
     args = parser.parse_args()
-    args.type = 'hed'  # currently, hed_map only
     main(args)
